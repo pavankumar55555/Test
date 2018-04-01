@@ -37,7 +37,7 @@ public class HelloWorldModel {
 
     @PostConstruct
     protected void init() {
-        message = "\tHello World modified java file \n";
+        message = "\tHello World modified java fileeee \n";
         message += "\tThis is instance: " + settings.getSlingId() + "\n";
         message += "\tResource type is: " + resourceType + "\n";
     }
